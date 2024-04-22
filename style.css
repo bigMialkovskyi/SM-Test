@@ -1,0 +1,56 @@
+.my-glbComentarios-loginRequired__btn {
+  /* display: none; */
+}
+
+.my-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+    height: calc(100vh - 280px);
+}
+
+.my-input {
+  width: 100%;
+  max-width: 300px;
+  height: 30px;
+  text-align: start;
+}
+
+.my-input-element {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 50%;
+  max-width: 300px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin: 0;
+}
+
+#hide-element {
+  transition: opacity 0.5s;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.obrigado {
+  color: green;
+  font-size: 48px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+#input-phone {
+  width: 300px;
+  height: 30px;
+  text-align: start;
+}
